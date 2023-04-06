@@ -45,9 +45,9 @@ end
 5. Research
 =end
 # 6. Start coding
-moar_wordz = ["Writer", "Concrete", "Column", "Director", "Decade"]
+moar_wordz = ["Writer", "Concrete", "Toyota", "Column", "Director", "Decade", "Theater"]
 moar_wordz.each do |m_word|
-    if m_word.include? "t"
+    if m_word.start_with? "T"
     puts m_word
     end
 end
